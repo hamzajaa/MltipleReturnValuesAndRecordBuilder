@@ -11,10 +11,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class MltipleReturnValuesApplication {
+public class MultipleReturnValuesApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MltipleReturnValuesApplication.class, args);
+        SpringApplication.run(MultipleReturnValuesApplication.class, args);
     }
 
     public Pair<Person, Address> getInfoPair() {
